@@ -105,7 +105,6 @@ A fully managed, scalable AWS service used to capture real-time data streams. Lo
 | MongoDB Atlas        | Cloud-native NoSQL document store   |
 | Apache Flink Studio  | Streaming analytics engine          |
 | Trino                | Federated SQL engine                |
-| Python               | Log generator + local simulation    |
 
 ---
 
