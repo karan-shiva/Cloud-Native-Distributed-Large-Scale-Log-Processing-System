@@ -119,29 +119,6 @@ A fully managed, scalable AWS service used to capture real-time data streams. Lo
 
 ---
 
-## 📊 Sample Trino Query
-
-```sql
-SELECT
-  m.service,
-  m.status,
-  p.total_errors,
-  p.avg_latency
-FROM
-  mongodb.logdb.logs m
-JOIN
-  postgres.public.error_summary p
-ON
-  m.service = p.service
-WHERE
-  m.status >= 500
-ORDER BY
-  m.timestamp DESC
-LIMIT 10;
-```
-
----
-
 ## 📢 Contact
 
 Built by Karan S
