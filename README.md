@@ -6,22 +6,7 @@ This project demonstrates a **cloud-native**, distributed real-time log analytic
 
 ## 🔧 Architecture Overview
 
-```
-[ Python Log Generator ]
-        ↓
-[ AWS Kinesis Data Stream ]
-        ↓
-[ AWS Lambda (raw log consumer) ]
-        ↓
-[ MongoDB Atlas (raw logs storage) ]
-
-          ↷
-           [ Apache Flink (real-time analytics) ]
-                    ↓
-          [ Amazon RDS - PostgreSQL (aggregated analytics) ]
-                    ↓
-           [ Trino (federated querying across MongoDB + Postgres) ]
-```
+![Alt Text](Image/log_processing_architecture.png)
 
 ---
 
