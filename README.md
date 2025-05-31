@@ -6,7 +6,9 @@ This project demonstrates a **cloud-native**, distributed real-time log analytic
 
 ## 🔧 Architecture Overview
 
-![Alt Text](Image/log_processing_architecture.png)
+<p align="center">
+ <img src="Image/log_processing_architecture.png" alt="Diagram" height="1200"/>
+</p>
 
 ---
 
